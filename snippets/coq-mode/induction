@@ -1,0 +1,6 @@
+# --
+induction $1 as [$2| $3].
+Case "$1 = $2".
+  reflexivity.$0
+Case "$1 = $3".
+  

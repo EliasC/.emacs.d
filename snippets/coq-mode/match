@@ -1,0 +1,7 @@
+# name: match ... with ... end.
+# key: match
+# --
+match $1 with
+    | $2 => $3
+    | $4 => $0
+end.

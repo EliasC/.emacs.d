@@ -1,0 +1,3 @@
+# --
+Fixpoint ${1:name} ${2:args} :=
+	 match$3
